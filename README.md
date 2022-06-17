@@ -37,6 +37,8 @@ MIT License
 
 ## Contributing
 
+None
+
 ## Tests
 
 Please follow the instructions below:
