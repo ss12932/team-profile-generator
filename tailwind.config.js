@@ -1,9 +1,9 @@
 module.exports = {
   content: [
     "./public/index.html",
-    "./index.js",
-    "./lib/*.js",
-    "./src/generateMarkup.js",
+    "./src/index.js",
+    "./src/lib/*.js",
+    "./src/renderMarkup.js",
   ],
   theme: {
     screens: {
