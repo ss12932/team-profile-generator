@@ -48,7 +48,7 @@ const employeeQuestions = [
   },
   {
     type: "input",
-    name: "officeNo",
+    name: "officeNumber",
     message: "What office number is best to reach the manager?",
     validate: (answer) => {
       if (!answer) {
