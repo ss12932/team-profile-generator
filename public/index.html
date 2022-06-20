@@ -7,16 +7,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
-  <body>
-    <main>
-      <div class="profile-sctn-wrapper">
-        <div class="jumbotron">
-          <h1></h1>
+  <body class="h-screen">
+    <!-- main section -->
+    <main class="w-full h-screen bg-onyx">
+      <!-- profile-section-wrapper  -->
+      <div>
+        <!-- jumbrotron with title -->
+        <div class="flex w-full justify-center bg-eerie-black">
+          <h1 class="font-bold text-5xl py-6 text-white">Team Profile</h1>
         </div>
-        <div class="cards-ctr">
-          <div>Manager</div>
-          <div>Engineer</div>
-          <div>Intern</div>
+        <!-- cards container -->
+        <div class="flex w-full justify-center m-4 space-x-3 flex-wrap">
+          <!-- manager card component -->
+          <div class="w-80 bg-cultured-2">
+            <div>
+              <img class="h-36 w-36" src="../assets/img/bowtie.jpg" alt="" />
+            </div>
+          </div>
+          <!-- engineer card component -->
+          <div class="w-80 bg-cultured-2">Engineer</div>
+          <!-- intern card component -->
+          <div class="w-80 bg-cultured-2">Intern</div>
         </div>
       </div>
     </main>
