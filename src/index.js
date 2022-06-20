@@ -6,6 +6,9 @@ const {
   employeeQuestions,
   addAnotherEEQuestion,
 } = require("./questions");
+const Manager = require("./lib/manager.js");
+const Engineer = require("./lib/engineer.js");
+const Intern = require("./lib/intern.js");
 
 const init = async () => {
   //initial confirm prompt to greet the user + ask if to proceed.
@@ -25,11 +28,11 @@ const init = async () => {
         totalEmployeesArr.push(manager);
       }
       if (employeeAnswers.role === "engineer") {
-        const engineer = new Manager(employeeAnswers);
+        const engineer = new Engineer(employeeAnswers);
         totalEmployeesArr.push(engineer);
       }
       if (employeeAnswers.role === "intern") {
-        const intern = new Manager(employeeAnswers);
+        const intern = new Intern(employeeAnswers);
         totalEmployeesArr.push(intern);
       }
 
