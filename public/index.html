@@ -7,17 +7,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
-  <body class="h-screen">
+  <body class="min-h-screen">
     <!-- main section -->
-    <main class="w-full h-screen bg-onyx">
+    <main class="w-full min-h-screen bg-onyx">
       <!-- profile-section-wrapper  -->
       <div>
         <!-- jumbrotron with title -->
         <div class="flex w-full justify-center bg-eerie-black">
-          <h1 class="font-bold text-5xl py-6 text-white">Team Profile</h1>
+          <h1 class="font-bold text-5xl py-6 text-white">
+            Team Profile Generator
+          </h1>
         </div>
         <!-- cards container -->
-        <div class="flex w-full justify-center m-4 space-x-3 flex-wrap">
+        <div
+          class="flex w-full justify-center items-center gap-6 flex-wrap p-6"
+        >
           <!-- manager card component -->
           <div
             class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
@@ -28,25 +32,194 @@
             </div>
             <div>
               <img
-                class="h-36 w-36 rounded-full bg-cultured"
-                src="../assets/img/bowtie.jpg"
+                class="h-36 w-36 rounded-full bg-cultured p-4"
+                src="../assets/img/tie.png"
                 alt=""
               />
             </div>
+            <!-- card info section -->
             <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
-              <div><span class="font-bold">ID:</span> 1</div>
               <div>
-                <span class="font-bold">Email:</span> ss12932@my.bristol.ac.uk
+                <div class="font-bold">ID:</div>
+                <div>1</div>
               </div>
               <div>
-                <span class="font-bold">Office Number:</span> 012327879988
+                <div>
+                  <div class="font-bold">Email:</div>
+                  <div>ss12932@my.bristol.ac.uk</div>
+                </div>
+              </div>
+              <div>
+                <div class="font-bold">Office No:</div>
+                <div>0123278899102w</div>
               </div>
             </div>
           </div>
           <!-- engineer card component -->
-          <div class="w-80 bg-cultured-2">Engineer</div>
+          <div
+            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
+          >
+            <div class="flex flex-col items-center">
+              <h2 class="font-bold text-3xl">Simon Doe</h2>
+              <h3 class="font-bold text-2xl">Engineer</h3>
+            </div>
+            <div>
+              <img
+                class="h-36 w-36 rounded-full bg-cultured p-4"
+                src="../assets/img/engineer.jpg"
+                alt=""
+              />
+            </div>
+            <!-- card info section -->
+            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+              <div>
+                <div class="font-bold">ID:</div>
+                <div>1</div>
+              </div>
+              <div>
+                <div>
+                  <div class="font-bold">Email:</div>
+                  <div>ss12932@my.bristol.ac.uk</div>
+                </div>
+              </div>
+              <div>
+                <div class="font-bold">Github:</div>
+                <div>@ss12932</div>
+              </div>
+            </div>
+          </div>
           <!-- intern card component -->
-          <div class="w-80 bg-cultured-2">Intern</div>
+          <div
+            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
+          >
+            <div class="flex flex-col items-center">
+              <h2 class="font-bold text-3xl">Peter Doe</h2>
+              <h3 class="font-bold text-2xl">Intern</h3>
+            </div>
+            <div>
+              <img
+                class="h-36 w-36 rounded-full bg-cultured p-4"
+                src="../assets/img/intern.jpg"
+                alt=""
+              />
+            </div>
+            <!-- card info section -->
+            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+              <div>
+                <div class="font-bold">ID:</div>
+                <div>1234</div>
+              </div>
+              <div>
+                <div>
+                  <div class="font-bold">Email:</div>
+                  <div>ss12932@my.bristol.ac.uk</div>
+                </div>
+              </div>
+              <div>
+                <div class="font-bold">School:</div>
+                <div>University of Birmingham</div>
+              </div>
+            </div>
+          </div>
+          <!-- dupe cards 1-->
+          <div
+            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
+          >
+            <div class="flex flex-col items-center">
+              <h2 class="font-bold text-3xl">Peter Doe</h2>
+              <h3 class="font-bold text-2xl">Intern</h3>
+            </div>
+            <div>
+              <img
+                class="h-36 w-36 rounded-full bg-cultured p-4"
+                src="../assets/img/intern.jpg"
+                alt=""
+              />
+            </div>
+            <!-- card info section -->
+            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+              <div>
+                <div class="font-bold">ID:</div>
+                <div>1234</div>
+              </div>
+              <div>
+                <div>
+                  <div class="font-bold">Email:</div>
+                  <div>ss12932@my.bristol.ac.uk</div>
+                </div>
+              </div>
+              <div>
+                <div class="font-bold">School:</div>
+                <div>University of Birmingham</div>
+              </div>
+            </div>
+          </div>
+          <!-- dupe cards 2 -->
+          <div
+            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
+          >
+            <div class="flex flex-col items-center">
+              <h2 class="font-bold text-3xl">Peter Doe</h2>
+              <h3 class="font-bold text-2xl">Intern</h3>
+            </div>
+            <div>
+              <img
+                class="h-36 w-36 rounded-full bg-cultured p-4"
+                src="../assets/img/intern.jpg"
+                alt=""
+              />
+            </div>
+            <!-- card info section -->
+            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+              <div>
+                <div class="font-bold">ID:</div>
+                <div>1234</div>
+              </div>
+              <div>
+                <div>
+                  <div class="font-bold">Email:</div>
+                  <div>ss12932@my.bristol.ac.uk</div>
+                </div>
+              </div>
+              <div>
+                <div class="font-bold">School:</div>
+                <div>University of Birmingham</div>
+              </div>
+            </div>
+          </div>
+          <!-- dupe cards 3 -->
+          <div
+            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
+          >
+            <div class="flex flex-col items-center">
+              <h2 class="font-bold text-3xl">Peter Doe</h2>
+              <h3 class="font-bold text-2xl">Intern</h3>
+            </div>
+            <div>
+              <img
+                class="h-36 w-36 rounded-full bg-cultured p-4"
+                src="../assets/img/intern.jpg"
+                alt=""
+              />
+            </div>
+            <!-- card info section -->
+            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+              <div>
+                <div class="font-bold">ID:</div>
+                <div>1234</div>
+              </div>
+              <div>
+                <div>
+                  <div class="font-bold">Email:</div>
+                  <div>ss12932@my.bristol.ac.uk</div>
+                </div>
+              </div>
+              <div>
+                <div class="font-bold">School:</div>
+                <div>University of Birmingham</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
