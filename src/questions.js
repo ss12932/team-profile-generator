@@ -1,11 +1,9 @@
-const initiateQuestion = [
-  {
-    type: "confirm",
-    name: "initQ",
-    message:
-      "Welcome to my Team Profile Generator! This will generate a static HTML page of your software development team! Would you like to proceed?",
-  },
-];
+const initQuestion = {
+  type: "confirm",
+  name: "initQ",
+  message:
+    "Welcome to my Team Profile Generator! This will generate a static HTML page of your software development team! Would you like to proceed?",
+};
 const employeeQuestions = [
   {
     type: "list",
@@ -91,11 +89,9 @@ const employeeQuestions = [
   },
 ];
 
-const addAnotherEEQuestion = [
-  {
-    type: "confirm",
-    name: "addAnotherEE",
-    message: "Would you like to add another employee?",
-  },
-];
-module.exports = { initiateQuestion, employeeQuestions, addAnotherEEQuestion };
+const addAnotherEEQuestion = {
+  type: "confirm",
+  name: "addAnotherEE",
+  message: "Would you like to add another employee?",
+};
+module.exports = { initQuestion, employeeQuestions, addAnotherEEQuestion };
