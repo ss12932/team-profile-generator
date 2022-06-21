@@ -4,7 +4,6 @@ class Intern extends Employee {
   constructor({ name, id, email, role, school }) {
     super({ name, id, email, role });
     this.school = school;
-    this.role = role;
   }
 
   getSchool() {
@@ -39,7 +38,7 @@ class Intern extends Employee {
       </div>
       <div>
         <div class="font-bold">School:</div>
-        <div>${this.getSchool()}/div>
+        <div>${this.getSchool()}</div>
       </div>
     </div>
   </div>`;
