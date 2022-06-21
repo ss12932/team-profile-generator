@@ -1,4 +1,4 @@
-const Engineer = require("./intern");
+const Intern = require("./intern");
 
 describe("Intern", () => {
   const mockName = "Sinh Fu San";
