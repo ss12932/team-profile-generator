@@ -36,13 +36,13 @@ const init = async () => {
         totalEmployeesArr.push(intern);
       }
 
-      const addAnotherEE = await inquirer.prompt(addAnotherEEQuestion);
+      const { addAnotherEE } = await inquirer.prompt(addAnotherEEQuestion);
       if (!addAnotherEE) {
         teamCreationInProgress = false;
       }
     }
     const html = generateHTML(totalEmployeesArr);
-    fs.writeToFile(
+    fs.writeFile(
       path.join(__dirname, "../public", "index.html"),
       html,
       (err) => {

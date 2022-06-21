@@ -9,7 +9,8 @@ const generateTeamMembers = (employees) => {
       // negative values will be arranged first, positive numbers arranged last
       return indexOfa > indexOfb ? 1 : indexOfa < indexOfb ? -1 : 0;
     })
-    .map((employee) => employee.createCard().join(""));
+    .map((employee) => employee.createCard())
+    .join("");
 };
 
 const generateHTML = (employees) => {

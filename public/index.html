@@ -1,228 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body class="min-h-screen">
-    <!-- main section -->
-    <main class="w-full min-h-screen bg-onyx">
-      <!-- profile-section-wrapper  -->
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="./main.css" />
+    </head>
+    <body class="min-h-screen">
+      <!-- main section -->
+      <main class="w-full min-h-screen bg-onyx">
+        <!-- profile-section-wrapper  -->
+        <div>
+          <!-- jumbrotron with title -->
+          <div class="flex w-full justify-center bg-eerie-black">
+            <h1 class="font-bold text-5xl py-6 text-white">
+              Team Profile Generator
+            </h1>
+          </div>
+          <!-- cards container -->
+          <div
+            class="flex w-full justify-center items-center gap-6 flex-wrap p-6"
+          >
+      <div
+    class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
+  >
+    <div class="flex flex-col items-center">
+      <h2 class="font-bold text-3xl">[object Object]</h2>
+      <h3 class="font-bold text-2xl">undefined</h3>
+    </div>
+    <div>
+      <img
+        class="h-36 w-36 rounded-full bg-cultured p-4"
+        src="./assets/img/intern.jpg"
+        alt=""
+      />
+    </div>
+    <!-- card info section -->
+    <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
       <div>
-        <!-- jumbrotron with title -->
-        <div class="flex w-full justify-center bg-eerie-black">
-          <h1 class="font-bold text-5xl py-6 text-white">
-            Team Profile Generator
-          </h1>
-        </div>
-        <!-- cards container -->
-        <div
-          class="flex w-full justify-center items-center gap-6 flex-wrap p-6"
-        >
-          <!-- manager card component -->
-          <div
-            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
-          >
-            <div class="flex flex-col items-center">
-              <h2 class="font-bold text-3xl">John Doe</h2>
-              <h3 class="font-bold text-2xl">Manager</h3>
-            </div>
-            <div>
-              <img
-                class="h-36 w-36 rounded-full bg-cultured p-4"
-                src="./assets/img/tie.png"
-                alt=""
-              />
-            </div>
-            <!-- card info section -->
-            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
-              <div>
-                <div class="font-bold">ID:</div>
-                <div>1</div>
-              </div>
-              <div>
-                <div>
-                  <div class="font-bold">Email:</div>
-                  <div>ss12932@my.bristol.ac.uk</div>
-                </div>
-              </div>
-              <div>
-                <div class="font-bold">Office No:</div>
-                <div>0123278899102w</div>
-              </div>
-            </div>
-          </div>
-          <!-- engineer card component -->
-          <div
-            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
-          >
-            <div class="flex flex-col items-center">
-              <h2 class="font-bold text-3xl">Simon Doe</h2>
-              <h3 class="font-bold text-2xl">Engineer</h3>
-            </div>
-            <div>
-              <img
-                class="h-36 w-36 rounded-full bg-cultured p-4"
-                src="./assets/img/engineer.jpg"
-                alt=""
-              />
-            </div>
-            <!-- card info section -->
-            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
-              <div>
-                <div class="font-bold">ID:</div>
-                <div>1</div>
-              </div>
-              <div>
-                <div>
-                  <div class="font-bold">Email:</div>
-                  <div>ss12932@my.bristol.ac.uk</div>
-                </div>
-              </div>
-              <div>
-                <div class="font-bold">Github:</div>
-                <div>@ss12932</div>
-              </div>
-            </div>
-          </div>
-          <!-- intern card component -->
-          <div
-            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
-          >
-            <div class="flex flex-col items-center">
-              <h2 class="font-bold text-3xl">Peter Doe</h2>
-              <h3 class="font-bold text-2xl">Intern</h3>
-            </div>
-            <div>
-              <img
-                class="h-36 w-36 rounded-full bg-cultured p-4"
-                src="./assets/img/intern.jpg"
-                alt=""
-              />
-            </div>
-            <!-- card info section -->
-            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
-              <div>
-                <div class="font-bold">ID:</div>
-                <div>1234</div>
-              </div>
-              <div>
-                <div>
-                  <div class="font-bold">Email:</div>
-                  <div>ss12932@my.bristol.ac.uk</div>
-                </div>
-              </div>
-              <div>
-                <div class="font-bold">School:</div>
-                <div>University of Birmingham</div>
-              </div>
-            </div>
-          </div>
-          <!-- dupe cards 1-->
-          <div
-            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
-          >
-            <div class="flex flex-col items-center">
-              <h2 class="font-bold text-3xl">Peter Doe</h2>
-              <h3 class="font-bold text-2xl">Intern</h3>
-            </div>
-            <div>
-              <img
-                class="h-36 w-36 rounded-full bg-cultured p-4"
-                src="./assets/img/intern.jpg"
-                alt=""
-              />
-            </div>
-            <!-- card info section -->
-            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
-              <div>
-                <div class="font-bold">ID:</div>
-                <div>1234</div>
-              </div>
-              <div>
-                <div>
-                  <div class="font-bold">Email:</div>
-                  <div>ss12932@my.bristol.ac.uk</div>
-                </div>
-              </div>
-              <div>
-                <div class="font-bold">School:</div>
-                <div>University of Birmingham</div>
-              </div>
-            </div>
-          </div>
-          <!-- dupe cards 2 -->
-          <div
-            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
-          >
-            <div class="flex flex-col items-center">
-              <h2 class="font-bold text-3xl">Peter Doe</h2>
-              <h3 class="font-bold text-2xl">Intern</h3>
-            </div>
-            <div>
-              <img
-                class="h-36 w-36 rounded-full bg-cultured p-4"
-                src="./assets/img/intern.jpg"
-                alt=""
-              />
-            </div>
-            <!-- card info section -->
-            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
-              <div>
-                <div class="font-bold">ID:</div>
-                <div>1234</div>
-              </div>
-              <div>
-                <div>
-                  <div class="font-bold">Email:</div>
-                  <div>ss12932@my.bristol.ac.uk</div>
-                </div>
-              </div>
-              <div>
-                <div class="font-bold">School:</div>
-                <div>University of Birmingham</div>
-              </div>
-            </div>
-          </div>
-          <!-- dupe cards 3 -->
-          <div
-            class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
-          >
-            <div class="flex flex-col items-center">
-              <h2 class="font-bold text-3xl">Peter Doe</h2>
-              <h3 class="font-bold text-2xl">Intern</h3>
-            </div>
-            <div>
-              <img
-                class="h-36 w-36 rounded-full bg-cultured p-4"
-                src="./assets/img/intern.jpg"
-                alt=""
-              />
-            </div>
-            <!-- card info section -->
-            <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
-              <div>
-                <div class="font-bold">ID:</div>
-                <div>1234</div>
-              </div>
-              <div>
-                <div>
-                  <div class="font-bold">Email:</div>
-                  <div>ss12932@my.bristol.ac.uk</div>
-                </div>
-              </div>
-              <div>
-                <div class="font-bold">School:</div>
-                <div>University of Birmingham</div>
-              </div>
-            </div>
-          </div>
-          <!-- end of cards  -->
+        <div class="font-bold">ID:</div>
+        <div>undefined</div>
+      </div>
+      <div>
+        <div>
+          <div class="font-bold">Email:</div>
+          <div>undefined</div>
         </div>
       </div>
-    </main>
-  </body>
-</html>
+      <div>
+        <div class="font-bold">School:</div>
+        <div>undefined/div>
+      </div>
+    </div>
+  </div><div
+    class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
+  >
+    <div class="flex flex-col items-center">
+      <h2 class="font-bold text-3xl">[object Object]</h2>
+      <h3 class="font-bold text-2xl">undefined</h3>
+    </div>
+    <div>
+      <img
+        class="h-36 w-36 rounded-full bg-cultured p-4"
+        src="./assets/img/tie.png"
+        alt=""
+      />
+    </div>
+    <!-- card info section -->
+    <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+      <div>
+        <div class="font-bold">ID:</div>
+        <div>undefined</div>
+      </div>
+      <div>
+        <div>
+          <div class="font-bold">Email:</div>
+          <div>undefined</div>
+        </div>
+      </div>
+      <div>
+        <div class="font-bold">Office No:</div>
+        <div>undefined</div>
+      </div>
+    </div>
+  </div><div
+    class="w-80 flex p-6 flex-col items-center bg-cadet-blue-crayola space-y-6 rounded"
+  >
+    <div class="flex flex-col items-center">
+      <h2 class="font-bold text-3xl">[object Object]</h2>
+      <h3 class="font-bold text-2xl">undefined</h3>
+    </div>
+    <div>
+      <img
+        class="h-36 w-36 rounded-full bg-cultured p-4"
+        src="./assets/img/engineer.jpg"
+        alt=""
+      />
+    </div>
+    <!-- card info section -->
+    <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+      <div>
+        <div class="font-bold">ID:</div>
+        <div>undefined</div>
+      </div>
+      <div>
+        <div>
+          <div class="font-bold">Email:</div>
+          <div>undefined</div>
+        </div>
+      </div>
+      <div>
+        <div class="font-bold">Github:</div>
+        <div>undefined</div>
+      </div>
+    </div>
+  </div>
+          </div>
+        </div>
+      </main>
+    </body>
+  </html>
+  
