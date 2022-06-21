@@ -8,7 +8,7 @@ const employeeQuestions = [
   {
     type: "list",
     name: "role",
-    message: "What role is the new Employee?",
+    message: "What the new employee's role?",
     choices: ["manager", "engineer", "intern"],
   },
   {

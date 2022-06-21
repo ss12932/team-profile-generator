@@ -1,6 +1,6 @@
 const fs = require("fs");
+const path = require("path");
 const inquirer = require("inquirer");
-const Manager = require("./lib/manager");
 const {
   initQuestion,
   employeeQuestions,
@@ -42,6 +42,16 @@ const init = async () => {
       }
     }
     const html = generateHTML(totalEmployeesArr);
+    fs.writeToFile(
+      path.join(__dirname, "../public", "index.html"),
+      html,
+      (err) => {
+        if (err) {
+          return console.log(err);
+        }
+        console.log(`You have successfully created a team profile!`);
+      }
+    );
   }
 };
 init();
