@@ -1,6 +1,6 @@
 const generateTeamMembers = (employees) => {
   //sortlist to define order of generating cards to write to index.html
-  const sortList = ["manager", "engineer", "intern"];
+  const sortList = ["Manager", "Engineer", "Intern"];
   return employees
     .sort((a, b) => {
       // compares instantiated employee objs a and b in totalEmployees Arr and sorts in same order as sortList by reading object role property.
