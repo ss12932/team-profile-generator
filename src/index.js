@@ -28,12 +28,10 @@ const init = async () => {
       if (role === "manager") {
         const manager = new Manager(employeeAnswers);
         totalEmployeesArr.push(manager);
-      }
-      if (role === "engineer") {
+      } else if (role === "engineer") {
         const engineer = new Engineer(employeeAnswers);
         totalEmployeesArr.push(engineer);
-      }
-      if (role === "intern") {
+      } else {
         const intern = new Intern(employeeAnswers);
         totalEmployeesArr.push(intern);
       }
