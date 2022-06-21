@@ -7,13 +7,13 @@ describe("Engineer", () => {
   const mockGithub = "ss12932";
   const mockRole = "Engineer";
 
-  const mockEngineer = new Engineer(
-    mockName,
-    mockId,
-    mockEmail,
-    mockRole,
-    mockGithub
-  );
+  const mockEngineer = new Engineer({
+    name: mockName,
+    id: mockId,
+    email: mockEmail,
+    role: mockRole,
+    github: mockGithub,
+  });
 
   it("should be an instantiated object of the Engineer class", () => {
     expect(mockEngineer).toBeInstanceOf(Engineer);
