@@ -35,7 +35,7 @@ After installing all the dependencies, please run `npm run start` in your termin
 
 Please follow the instructions below:
 
-When you run the `npm run start` command using the command line terminal mentioned above, the application will initiate the inquirer package and run you through a series of prompts regarding your project and what information you would like in your README file. After answering all the prompts successfully, the team profile template will be generated in the dist folder.
+When you run the `npm run start` command using the command line terminal mentioned above, the application will initiate the inquirer package and run you through a series of prompts about your team members. After answering all the prompts successfully, you will be guided by a final confirm prompt which will ask if you want to add additional team members. If all members have been added, the team profile template will be generated in the `index.html` located in the public folder.
 
 ## License
 
