@@ -6,9 +6,10 @@ const {
   employeeQuestions,
   addAnotherEEQuestion,
 } = require("./questions");
-const Manager = require("./lib/manager.js");
-const Engineer = require("./lib/engineer.js");
-const Intern = require("./lib/intern.js");
+const Manager = require("./lib/manager");
+const Engineer = require("./lib/engineer");
+const Intern = require("./lib/intern");
+const generateHTML = require("./renderMarkup");
 
 const init = async () => {
   //initial confirm prompt to greet the user + ask if to proceed.
@@ -22,16 +23,17 @@ const init = async () => {
 
     while (teamCreationInProgress) {
       const employeeAnswers = await inquirer.prompt(employeeQuestions);
+      const { role } = employeeAnswers;
 
-      if (employeeAnswers.role === "manager") {
+      if (role === "manager") {
         const manager = new Manager(employeeAnswers);
         totalEmployeesArr.push(manager);
       }
-      if (employeeAnswers.role === "engineer") {
+      if (role === "engineer") {
         const engineer = new Engineer(employeeAnswers);
         totalEmployeesArr.push(engineer);
       }
-      if (employeeAnswers.role === "intern") {
+      if (role === "intern") {
         const intern = new Intern(employeeAnswers);
         totalEmployeesArr.push(intern);
       }
@@ -41,6 +43,7 @@ const init = async () => {
         teamCreationInProgress = false;
       }
     }
+    const html = generateHTML(totalEmployeesArr);
   }
 };
 init();
