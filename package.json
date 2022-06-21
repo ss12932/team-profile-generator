@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./public/main.css",
-    "watch": "tailwindcss -i ./src/input.css -o ./public/main.css --watch"
+    "watch": "tailwindcss -i ./src/input.css -o ./public/main.css --watch",
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
