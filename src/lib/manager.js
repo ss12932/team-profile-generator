@@ -29,7 +29,7 @@ class Manager extends Employee {
     <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
       <div>
         <div class="font-bold">ID:</div>
-        <div>1</div>
+        <div>${this.getId()}</div>
       </div>
       <div>
         <div>
