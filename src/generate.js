@@ -3,7 +3,7 @@ const generateTeamMembers = (employees) => {
   const sortList = ["manager", "engineer", "intern"];
   return employees
     .sort((a, b) => {
-      // compares instantiated objs a and b in totalEmployees Arr and sorts in same order as sortList by reading object role property.
+      // compares instantiated employee objs a and b in totalEmployees Arr and sorts in same order as sortList by reading object role property.
       let indexOfa = sortList.indexOf(a.role);
       let indexOfb = sortList.indexOf(b.role);
       // negative values will be arranged first, positive numbers arranged last

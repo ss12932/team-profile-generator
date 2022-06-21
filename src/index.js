@@ -9,7 +9,7 @@ const {
 const Manager = require("./lib/manager");
 const Engineer = require("./lib/engineer");
 const Intern = require("./lib/intern");
-const generateHTML = require("./renderMarkup");
+const generateHTML = require("./generate");
 
 const init = async () => {
   //initial confirm prompt to greet the user + ask if to proceed.
