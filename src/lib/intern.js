@@ -2,7 +2,7 @@ const Employee = require("./employee.js");
 
 class Intern extends Employee {
   constructor({ name, id, email, role, school }) {
-    super({ name, id, email, role });
+    super(name, id, email, role);
     this.school = school;
   }
 
@@ -25,7 +25,7 @@ class Intern extends Employee {
       />
     </div>
     <!-- card info section -->
-    <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+    <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow w-full">
       <div>
         <div class="font-bold">ID:</div>
         <div>${this.getId()}</div>

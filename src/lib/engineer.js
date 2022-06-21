@@ -2,7 +2,7 @@ const Employee = require("./employee.js");
 
 class Engineer extends Employee {
   constructor({ name, id, email, role, github }) {
-    super({ name, id, email, role });
+    super(name, id, email, role);
     this.github = github;
   }
 
@@ -25,7 +25,7 @@ class Engineer extends Employee {
       />
     </div>
     <!-- card info section -->
-    <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow">
+    <div class="bg-cultured-2 p-4 px-10 rounded space-y-4 shadow w-full">
       <div>
         <div class="font-bold">ID:</div>
         <div>${this.getId()}</div>
