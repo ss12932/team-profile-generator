@@ -9,7 +9,7 @@ const employeeQuestions = [
     type: "list",
     name: "role",
     message: "What the new employee's role?",
-    choices: ["manager", "engineer", "intern"],
+    choices: ["Manager", "Engineer", "Intern"],
   },
   {
     type: "input",
@@ -55,7 +55,7 @@ const employeeQuestions = [
       return true;
     },
     when(answers) {
-      return answers.role === "manager";
+      return answers.role === "Manager";
     },
   },
   {
@@ -69,7 +69,7 @@ const employeeQuestions = [
       return true;
     },
     when(answers) {
-      return answers.role === "engineer";
+      return answers.role === "Engineer";
     },
   },
   {
@@ -84,7 +84,7 @@ const employeeQuestions = [
       return true;
     },
     when(answers) {
-      return answers.role === "intern";
+      return answers.role === "Intern";
     },
   },
 ];

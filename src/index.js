@@ -25,10 +25,10 @@ const init = async () => {
       const employeeAnswers = await inquirer.prompt(employeeQuestions);
       const { role } = employeeAnswers;
 
-      if (role === "manager") {
+      if (role === "Manager") {
         const manager = new Manager(employeeAnswers);
         totalEmployeesArr.push(manager);
-      } else if (role === "engineer") {
+      } else if (role === "Engineer") {
         const engineer = new Engineer(employeeAnswers);
         totalEmployeesArr.push(engineer);
       } else {
