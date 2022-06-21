@@ -4,6 +4,8 @@
 
 - [Description](#description)
 - [Installation](#installation)
+- [Screenshot](#screenshot)
+- [Video Link](#video-link)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
