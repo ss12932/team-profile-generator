@@ -33,7 +33,7 @@ class Manager extends Employee {
       <div>
         <div>
           <div class="font-bold">Email:</div>
-          <div><a class="underline" href="mailto:${this.getEmail()}">${this.getEmail()} target="_blank"</a></div>
+          <div><a class="underline" href="mailto:${this.getEmail()}" target="_blank">${this.getEmail()}</a></div>
         </div>
       </div>
       <div>
