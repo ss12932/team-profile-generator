@@ -33,7 +33,7 @@ class Intern extends Employee {
       <div>
         <div>
           <div class="font-bold">Email:</div>
-          <div><a class="email" href="mailto:${this.getEmail()}"></div>
+          <div><a class="underline" href="mailto:${this.getEmail()}">${this.getEmail()}</a></div>
         </div>
       </div>
       <div>

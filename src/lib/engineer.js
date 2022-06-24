@@ -33,13 +33,13 @@ class Engineer extends Employee {
       <div>
         <div>
           <div class="font-bold">Email:</div>
-          <div><a class="email" href="mailto:${this.getEmail()}"></div>
+          <div><a class="underline" href="mailto:${this.getEmail()}">${this.getEmail()}</a></div>
         </div>
       </div>
       <div>
         <div class="font-bold">Github:</div>
-        <div><a class="github" href="https://github.com/${this.getGithub()}" target="_blank"
-        ></div>
+        <div><a class="underline" href="https://github.com/${this.getGithub()}" target="_blank"
+        >https://github.com/${this.getGithub()}</a></div>
       </div>
     </div>
   </div>`;
