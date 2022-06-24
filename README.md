@@ -21,13 +21,13 @@ This week's assignment is to build a Node.js CLI application that takes in infor
 
 ## Video Link
 
-[Google Drive Link](https://drive.google.com/file/d/1F-501QDxXzUq190WRqA6hEuaJwT8y5Iz/view)
+[Google Drive Link](https://drive.google.com/file/d/1WqbPcAGObEqqmC1JECFWbxqnHOjVr4WY/view)
 
 ## Installation
 
 Please follow the instructions below:
 
-In order to generate your own team profile template. please git clone this application onto your local machine. Follow this video [here](https://drive.google.com/file/d/1F-501QDxXzUq190WRqA6hEuaJwT8y5Iz/view) which will provide a walkthrough of the whole installation and usage process.
+In order to generate your own team profile template. please git clone this application onto your local machine. Follow this video [here](https://drive.google.com/file/d/1WqbPcAGObEqqmC1JECFWbxqnHOjVr4WY/view) which will provide a walkthrough of the whole installation and usage process.
 
 Once cloned onto your local machine through your terminal, Next run `npm install` or `npm i` in order to install all the npm package dependencies needed to run the application.
 
