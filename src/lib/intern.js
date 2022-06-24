@@ -1,4 +1,4 @@
-const Employee = require("./employee.js");
+const Employee = require('./employee.js');
 
 class Intern extends Employee {
   constructor({ name, id, email, role, school }) {
@@ -33,7 +33,7 @@ class Intern extends Employee {
       <div>
         <div>
           <div class="font-bold">Email:</div>
-          <div>${this.getEmail()}</div>
+          <div><a class="email" href="mailto:${this.getEmail()}"></div>
         </div>
       </div>
       <div>
